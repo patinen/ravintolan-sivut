@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="lapintaikaatyyli-2.css"/>
+<title>Ravintola Lapintaika</title>
+</head>  
+<body>
+	<header>
+		<a href="lapintaikaa-2.html">
+		<img src="logo.png" alt="Ravintola-Lapintaika-logo" style=width:300px;>
+		</a>
+			</header>
+<form>
+	<div class="askysely">
+		<h1>Asiakaskysely</h1>
+			<h3>Vastaa alla olevaan kyselyyn antaaksesi meille palautetta vierailustasi.</h3><br><br>
+			<label id="date">Millon vierailit meillä?</label>
+				<input type="date"> <input type="time"><br><br>
+			<label id="time">Kauanko jouduit odottamaan ruokaa?</label><br>
+				<input type="text" name="wait"><br>	<br>
+			<label id="taste">Ruuan maku:</label><br>
+	<div class="radios">
+		<div class="radio-option"><input type="radio" id="taste-bad" name="taste">Välttävä</div>
+		<div class="radio-option"><input type="radio" id="taste-ok" name="taste">Hyvä</div>
+		<div class="radio-option"><input type="radio" id="taste-good" name="taste">Kiitettävä</div>
+		<div class="radio-option"><input type="radio" id="taste-exc" name="taste">Erinomainen</div><br><br>
+	</div>	
+			<label id="temp">Ruuan lämpö:</label><br>
+	<div class="radios">		
+		<div class="radio-option"><input type="radio" id="temp1" name="temp">Jäähtynyt</div>
+		<div class="radio-option"><input type="radio" id="temp2" name="temp">Vähän haalea</div>
+		<div class="radio-option"><input type="radio" id="temp3" name="temp">Sopiva</div>
+		<div class="radio-option"><input type="radio" id="temp4" name="temp">Liian kuumaa</div>
+	</div>
+					<br><br>
+			<label id="looks">Palaute ruuan ulkonäöstä?</label><br>
+				<input type="text" name="wait"><br><br>
+	<label id="service">Oliko palvelu miellyttävää?</label><br>
+	<div class="radios">
+		<div class="radio-option"><input type="radio" id="service1" name="service">Löytyy parantamisen varaa</div>
+		<div class="radio-option"><input type="radio" id="service2" name="service">Sujuva</div>
+		<div class="radio-option"><input type="radio" id="service3" name="service">Oikein mukava</div><br> <br>	
+	</div>
+	<label id="feedback">Muuta sanottavaa käynnistänne?</label><br>
+				<input type="text" name="feedback"><br> <br>
+		<p>Jätäthän yhteystietosi meille mikäli haluat, että otamme teihin yhteyttä.</p><br>
+			<label id="name">Nimi:</label><br>
+			<input type="text" name="name"><br>
+			<label id="email">Sähköposti:</label><br>
+			<input type="text" name="email"><br>
+			<label id="phonenumber">Puhelinnumero:</label><br>
+			<input type="text" name="phone"><br><br>
+		<label id="send" style=display:none;>Lähetä!</label><br>
+			<input type="submit"><br>
+	</div>
+</form>
+	<footer>
+		<div class="footer-columns">
+			<div class="foo1">
+				<h4><b>Ravintola Lapintaika</b></h4><br>
+				<h4>Ravintolakatu 2</h4>
+				<h4>98765 Lapinmaa</h4>
+			</div>
+			<div class="foo2">
+				<h4>Puh. (012) 345 6789</h4><br>
+				<h4><b>Sähköposti:</b></h4>
+				<h4>varaukset@jokuposti.net</h4>
+			</div>
+			<div class="foo3">
+				<h4><b>Aukioloajat:</b></h4><br>
+				<h4>Ma-Pe: <br>10:30-15:00</h4>
+			</div>
+		</div>
+	</footer>
+</body>
+</html> 
